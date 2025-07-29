@@ -10,23 +10,35 @@
     />
     
 </head>
-<body>
-    <div id="header">
-        <div class="container">
 
+    
+</div>
+<body>
+    
+    <div id="header">
+        
+        <div class="container">
+            
             <nav>
-                <img src="" class="logo">
+                <img src="images/logo_no_bg.png" class="logo">
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i><!----js to open menu----->
+            
                 <ul id="sidemenu">
+                    <div class="menu-header">
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i><!----js to close menu----->
+
+                    </div>
+                    
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#id">Contact</a></li>
 
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i><!----js to close menu----->
+                    
 
                 </ul>
-                    <i class="fa-solid fa-bars" onclick="openmenu()"></i><!----js to open menu----->
+                    
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
@@ -173,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="#" class="btn" >See more</a>
 
         </div>
     </div>
@@ -202,7 +214,7 @@
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
+                    <button type="submit" class="btn btn2"  style="background-color:grey;">Submit</button>
                       
 
                  </form>
