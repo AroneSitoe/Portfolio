@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#id">Contact</a></li>
+
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i><!----js to close menu----->
+
+                </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i><!----js to open menu----->
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hey, I'm <span>Arony</span><br> From Mozambique</h1>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!----------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="" >
+                </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        
+                        <p>Arony is a specialist in content marketing, social media and the sale of branded clothing, creating and distributing content that inspires your audiences and makes them presentable. To return your products, please contact Customer Services to request return and ensure that you follow these instructions on how to return a product . We kindly ask you to also meet the following conditions: The product is in its original state and packaging. Apparel has the original tags attached. Accessories have all parts of the original packaging.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web and App Development</li>
+                                <li><span> App Development</span><br>Building Androind /IOS Apps</li> 
+
+
+
+                            </ul>
+                        </div>
+
+                        
+
+                        <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Designing Web/App interfaces at ANU</li>
+                                <li><span>2022 - 2025</span><br>Web and App Developing</li>
+                                <li><span> 2025</span><br>Team Lead at Starcamp ANU-South Korea</li> 
+
+
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 </span><br>Design Training  at ANU</li>
+                                <li><span>2024</span><br>Apex from Apex Team</li>
+                                
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        
+
+        <!---------services-------->
+
+        <div id="services">
+            <div class="cointainer">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Arony is a specialist in content marketing, social media and the sale of branded clothing, creating and distributing content that inspires your audiences and makes them presentable. To return your products, please contact Customer Services to request return and ensure that you follow these instructions on how to return a product . </p>
+                         <a href="#">Learn more</a>
+
+
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX</h2>
+                        <p>Arony is a specialist in content marketing, social media and the sale of branded clothing, creating and distributing content that inspires your audiences and makes them presentable. To return your products, please contact Customer Services to request return and ensure that you follow these instructions on how to return a product . </p>
+                         <a href="#">Learn more</a>
+
+                    </div>
+
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2> Design</h2>
+                        <p>Arony is a specialist in content marketing, social media and the sale of branded clothing, creating and distributing content that inspires your audiences and makes them presentable. To return your products, please contact Customer Services to request return and ensure that you follow these instructions on how to return a product . </p>
+                         <a href="#">Learn more</a>
+
+                    </div>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+    <!------portfolio------->
+    <div id="portfolio">
+        <div class="containeer">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        <br>Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        <br>Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        <br>Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <!------------contact------>
+    <div id="id">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>aronysitoe&#64;gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0701195495</p>
+                    <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/arony.king?igsh=MTY5Znp3cWJhOHowcQ==&utm_source=ig_contact_invite"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+
+
+                <div class="contact-right">
+                  <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="8a78a4b2-f433-4e9e-a186-ec7e0a7681ef">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                      
+
+                 </form>
+
+                 
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright &copy; Arony, Made with <i class="fa-solid fa-heart"></i> in 2025</p>
+
+    </div>
+
+
+
+</div>
+
+    <script>
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+
+
+    </script>
+
+
+    <script>
+        /*------js code to open and close menu---------*/
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+
+
+
+    </script>
+    
+
+</body>
+</html>
